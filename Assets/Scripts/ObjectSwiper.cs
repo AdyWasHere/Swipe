@@ -18,25 +18,25 @@ public class ObjectSwiper : MonoBehaviour {
 	void Update () {
         if (swipeControls.SwipeRight)
         {
-            desiredPosition += Vector2.right;
+            desiredPosition += Vector2.right*2.5f;
         }
 
         if (swipeControls.SwipeLeft)
         {
-            desiredPosition += Vector2.left;
+            desiredPosition += Vector2.left * 2.5f;
         }
 
         if (swipeControls.SwipeUp)
         {
-            desiredPosition += Vector2.up;
+            desiredPosition += Vector2.up * 2.5f;
         }
 
         if (swipeControls.SwipeDown)
         {
-            desiredPosition += Vector2.down;
+            desiredPosition += Vector2.down * 2.5f;
         }
 
-        player.transform.position = Vector2.MoveTowards(player.transform.position, desiredPosition, 3f * Time.deltaTime);
+        player.transform.position = Vector2.MoveTowards(player.transform.position, desiredPosition,8f * Time.deltaTime);
 
     }
 }
