@@ -15,7 +15,7 @@ Swipe is a 2D Android game, it's main action is to swipe your character to avoid
 - Download the files from the repository.
 - Start Unity and Open the project.
 - On top of the screen there's a play button, press it to test the project
-- Later on we'll have a link to a Windoes version.
+- Later on we'll have a link to a Windows version.
 
 
 # Windows test version
